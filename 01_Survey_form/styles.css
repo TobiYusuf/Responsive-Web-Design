@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+body {
+  height: 100vh;
+  width: 100%;
+  line-height: 1.4;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p,
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+#page-header {
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+#container {
+  background-color: rgba(27, 27, 50, 0.8);
+  margin: auto;
+  width: 40%;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+input,
+select {
+  height: 35px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  padding: 0.2rem 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+label {
+  color: #fff;
+  width: 100%;
+  text-align: left;
+}
+
+.recommend-checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+input[type="radio"] {
+  width: 20px; /* Set the width */
+  height: 20px; /* Set the height */
+}
